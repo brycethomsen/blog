@@ -5,8 +5,9 @@ tags: [ "electronics", "mods" ]
 date: "2018-10-08"
 categories:
   - "electronics"
+draft: true
 ---
-Recently, I was joking with a firend and coworker about Funko Pop figures, specifically the *Minion* figurines. About a week later I was surprised with a gift, a [Fire Alarm Minion](https://www.funko.com/products/all/fandoms/despicable-me/pop-movies-despicable-me-fire-alarm)! After recovering I thought to myself "it looks like it should light up", but alas it didn't... 
+Recently, I was joking with a friend and coworker about Funko Pop figures, specifically the *Minion* figurines. About a week later I was surprised with a gift, a [Fire Alarm Minion](https://www.funko.com/products/all/fandoms/despicable-me/pop-movies-despicable-me-fire-alarm)! After recovering I thought to myself "it looks like it should light up", but alas it didn't... 
 So... here is a quick little build log to "fix" the Fire Alarm Minion to blink, like a... fire alarm!
 
 ### Parts Needed:
