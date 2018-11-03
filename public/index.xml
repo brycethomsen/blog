@@ -20,15 +20,5 @@
       <description>Surely you&amp;rsquo;ve heard of (Hugo)[https://gohugo.io/], in short, it&amp;rsquo;s a framework writting in Go for building static websites. Perfect for blogs! I&amp;rsquo;ve decided to use it for this very blog. There are many, many different resources for getting started, but here&amp;rsquo;s my take on it.</description>
     </item>
     
-    <item>
-      <title>Fixing the Fire Alarm Funko Pop! Minion</title>
-      <link>https://brycethomsen.com/alert-minion/</link>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://brycethomsen.com/alert-minion/</guid>
-      <description>Recently, I was joking with a firend and coworker about Funko Pop figures, specifically the Minion figurines. About a week later I was surprised with a gift, a Fire Alarm Minion! After recovering I thought to myself &amp;ldquo;it looks like it should light up&amp;rdquo;, but alas it didn&amp;rsquo;t&amp;hellip; So&amp;hellip; here is a quick little build log to &amp;ldquo;fix&amp;rdquo; the Fire Alarm Minion to blink, like a&amp;hellip; fire alarm!
-Parts Needed:  555 timer 470k ohm resistors x2 220 ohm resistor x1 100 µFarad capacitor x1 10mm red LED x3 PCB for astable circit (or perfboard to make your own) Some wire Drill Dremel Solder Iron (and solder) Hot glue  Firstly, I could see that the sirens were not made from the same material as the rest of the figureine.</description>
-    </item>
-    
   </channel>
 </rss>
