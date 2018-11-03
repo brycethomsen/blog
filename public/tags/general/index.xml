@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on bryce thomsen</title>
-    <link>https://brycethomsen.com/tags/general/</link>
+    <link>https://blog.brycethomsen.com/tags/general/</link>
     <description>Recent content in General on bryce thomsen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://brycethomsen.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.brycethomsen.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello, World!</title>
-      <link>https://brycethomsen.com/init/</link>
+      <link>https://blog.brycethomsen.com/init/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://brycethomsen.com/init/</guid>
+      <guid>https://blog.brycethomsen.com/init/</guid>
       <description>Surely you&amp;rsquo;ve heard of (Hugo)[https://gohugo.io/], in short, it&amp;rsquo;s a framework writting in Go for building static websites. Perfect for blogs! I&amp;rsquo;ve decided to use it for this very blog. There are many, many different resources for getting started, but here&amp;rsquo;s my take on it.</description>
     </item>
     

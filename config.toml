@@ -1,9 +1,9 @@
-baseURL = "https://brycethomsen.com/"
+baseURL = "https://blog.brycethomsen.com/"
 languageCode = "en-us"
 title = "bryce thomsen"
 theme = "hemingway"
 #copyright = "&copy; <a href=\"https://github.com/tanksuzuki\">bryce thomsen</a>"
-#disqusShortname = "shortname"
+disqusShortname = "blogbryce"
 #googleAnalytics = ""
 
 [params]
