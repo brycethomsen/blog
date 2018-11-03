@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mods on bryce thomsen</title>
+    <link>https://brycethomsen.com/tags/mods/</link>
+    <description>Recent content in Mods on bryce thomsen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://brycethomsen.com/tags/mods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing the Fire Alarm Funko Pop! Minion</title>
+      <link>https://brycethomsen.com/alert-minion/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://brycethomsen.com/alert-minion/</guid>
+      <description>Recently, I was joking with a firend and coworker about Funko Pop figures, specifically the Minion figurines. About a week later I was surprised with a gift, a Fire Alarm Minion! After recovering I thought to myself &amp;ldquo;it looks like it should light up&amp;rdquo;, but alas it didn&amp;rsquo;t&amp;hellip; So&amp;hellip; here is a quick little build log to &amp;ldquo;fix&amp;rdquo; the Fire Alarm Minion to blink, like a&amp;hellip; fire alarm!
+Parts Needed:  555 timer 470k ohm resistors x2 220 ohm resistor x1 100 µFarad capacitor x1 10mm red LED x3 PCB for astable circit (or perfboard to make your own) Some wire Drill Dremel Solder Iron (and solder) Hot glue  Firstly, I could see that the sirens were not made from the same material as the rest of the figureine.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fixing the Fire Alarm Funko Pop! Minion | bryce thomsen</title>
+<link rel="stylesheet" href="https://brycethomsen.com//css/style.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/github.min.css">
+
+
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="https://brycethomsen.com/"><h1 class="title is-4">bryce thomsen</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile">
+          
+          <a class="level-item" href="https://github.com/brycethomsen">
+            <span class="icon">
+              <i class="fa fa-github"></i>
+            </span>
+          </a>
+          
+          <a class="level-item" href="https://twitter.com/brycethomsen">
+            <span class="icon">
+              <i class="fa fa-twitter"></i>
+            </span>
+          </a>
+          
+          <a class="level-item" href="/index.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+          </a>
+          
+          <a class="level-item" href="mailto:hello@brycethomsen.com">
+            <span class="icon">
+              <i class="fa fa-envelope"></i>
+            </span>
+          </a>
+          
+        </nav>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="subtitle is-6">October 8, 2018</h2>
+    <h1 class="title">Fixing the Fire Alarm Funko Pop! Minion</h1>
+    <div class="content">
+      
+
+<p>Recently, I was joking with a firend and coworker about Funko Pop figures, specifically the <em>Minion</em> figurines. About a week later I was surprised with a gift, a <a href="https://www.funko.com/products/all/fandoms/despicable-me/pop-movies-despicable-me-fire-alarm">Fire Alarm Minion</a>! After recovering I thought to myself &ldquo;it looks like it should light up&rdquo;, but alas it didn&rsquo;t&hellip;
+So&hellip; here is a quick little build log to &ldquo;fix&rdquo; the Fire Alarm Minion to blink, like a&hellip; fire alarm!</p>
+
+<h3 id="parts-needed">Parts Needed:</h3>
+
+<ul>
+<li>555 timer</li>
+<li>470k ohm resistors x2</li>
+<li>220 ohm resistor x1</li>
+<li>100 µFarad capacitor x1</li>
+<li>10mm red LED x3</li>
+<li>PCB for astable circit (or perfboard to make your own)</li>
+<li>Some wire</li>
+<li>Drill</li>
+<li>Dremel</li>
+<li>Solder Iron (and solder)</li>
+<li>Hot glue</li>
+</ul>
+
+<p>Firstly, I could see that the sirens were not made from the same material as the rest of the figureine. After some prying I was able to get these to snap right off.</p>
+
+<p><img src="../img/minion-front.jpg" alt="Removed sirens" /></p>
+
+<p>I debated about how best to get inside of the figureine. It seemed to be made of one piece of plastic, so there was nothing to pry open&hellip; Dremel time. I should have used a thinner cutting disk as I intended to reseal the hole after adding the circuit.</p>
+
+<p><img src="../img/minion-back.jpg" alt="Dremel inside" /></p>
+
+<p>Now that I had access to inside, I drilled some holes for the LEDs. I started with a small bit, and worked my way up to my largest bit that was just slightly smaller than the 10mm LEDs giving them a snug fit.</p>
+
+<p><img src="../img/minion-top.jpg" alt="Drill in top" />
+<img src="../img/minion-side.jpg" alt="Drill out sides" /></p>
+
+<p>After test fitting an LED, I wired up the LEDs in series, giving myself ample wire to connect to the circuit. I stuffed all the LEDs into their new sockets.</p>
+
+<p><img src="../img/minion-inside.jpg" alt="Inside look at leds" /></p>
+
+<p>A few years ago, I purchased a few PCBs that form an astable circuit for a 555 timer. Since I had a few of these laying around, I decided to use one, but you could make your own on a piece of perfboard.</p>
+
+<p><img src="../img/minion-555.jpg" alt="555 timer circuit board" /></p>
+
+<p>Hurray, the Fire Alarm Minion blinks now!</p>
+
+<p><img src="../img/minion-blink.mov" alt="Finished" /></p>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p></p>
+  </div>
+</section>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/go.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/dockerfile.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/bash.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/python.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
