@@ -5,6 +5,7 @@ theme = "hemingway"
 copyright = "&copy; bryce thomsen"
 disqusShortname = "blogbryce"
 #googleAnalytics = ""
+enableRobotsTXT = true
 
 [params]
 
