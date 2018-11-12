@@ -48,8 +48,4 @@ A few years ago, I purchased a few PCBs that form an astable circuit for a 555 t
 
 Hurray, the Fire Alarm Minion blinks now!
 
-<video width="720" controls>
-  <source src="../../img/minion-blink.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+![Fixed!](../../img/minion-blink.gif)
