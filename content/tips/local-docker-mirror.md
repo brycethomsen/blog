@@ -7,7 +7,9 @@ tags: ["docker, registry, tricks, tips", "dockerhub", "mirror", "docker"]
 draft: false
 ---
 
-I was looking into hosting my own Docker repository when I came across a link describing how to mirror DockerHub. This could probaly be used to speed up docker pulls locally. Here's how:
+I was looking into hosting my own Docker repository when I came across a link describing how to mirror DockerHub. This could probaly be used to speed up docker pulls locally. 
+
+Here's how:
 
 Fire up a registry:
 ```
@@ -27,6 +29,7 @@ Final Results:
 
 ```
 # New Image pull
+
 $ time docker pull ubuntu
 Using default tag: latest
 latest: Pulling from library/ubuntu
@@ -42,6 +45,7 @@ user    0m0.059s
 sys     0m0.047s
 
 # Remove the image
+
 $ docker rmi ubuntu
 Untagged: ubuntu:latest
 Untagged: ubuntu@sha256:868fd30a0e47b8d8ac485df174795b5e2fe8a6c8f056cc707b232d65b8a1ab68
@@ -52,6 +56,7 @@ Deleted: sha256:043f492f40c539cfe7cee4cb8aae00ed1d5b19e864fbe6ea35ec92a2333bacc4
 Deleted: sha256:2fb7bfc6145d0ad40334f1802707c2e2390bdcfc16ca636d9ed8a56c1101f5b9
 
 # Pull the image again (from local mirror)
+
 $ time docker pull ubuntu
 Using default tag: latest
 latest: Pulling from library/ubuntu
