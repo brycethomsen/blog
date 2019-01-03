@@ -1,7 +1,7 @@
 ---
 title: "Seattle DevOps Days 2018"
 description: ""
-date: 2019-01-02
+date: 2018-04-26
 categories: ["cons"]
 tags: ["devops", "devops days", "conference"]
 draft: false
