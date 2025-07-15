@@ -1,5 +1,2 @@
-build/
-cfn-template.yml
-*.jpg
-out/
-raw/
+output/
+.venv/
